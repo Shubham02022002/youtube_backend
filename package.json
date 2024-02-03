@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Youtube Backend",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev":"nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Shubham02022002/youtube_backend/issues"
   },
-  "homepage": "https://github.com/Shubham02022002/youtube_backend#readme"
+  "homepage": "https://github.com/Shubham02022002/youtube_backend#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
 }
